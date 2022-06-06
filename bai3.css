@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1C233D;
+    color: #E5E5E5;
+}
+
+.navigationBar {
+    color: white;
+}
+
+.itemNav{
+    color: #E5E5E5;
+    width: 51px;
+    margin-top: 30px;
+
+}
+#itemNav{
+    margin-left: 30px;
+}
+
+.itemHeading {
+    color: #E5E5E5;
+    width: 108px;
+    margin-top: 15px;
+    margin-left: 55px;
+    right: 20px;
+}
+.searchBox{
+    width: 100px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.paraSearchBox{
+    text-align: left;
+}
+.imgDes{
+    width: 10%;
+    position: relative;
+    margin-left: 80px;
+
+}
+.buttonBox{
+    margin-left: 70px;
+    width: 100px;
+    height: 30px;
+    background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+    border-radius: 5px;
+    color: #E5E5E5;
+    border: none;
+}
+.banner{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.paraBanner{
+    font-size: 90px;
+    word-spacing: 0.5 rem;
+    color: #E5E5E5;
+}
+.paraBannerDes{
+    color: #E5E5E5;
+    width: 330px;
+    margin-top: -10px;
+}
+.buttonBannerBox{
+    color: #E5E5E5;
+    background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+    width: 230px;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+}
+.picBanner{
+    width: 600px;
+    background-color:#C367E6;
+    height: 700px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #30384D;
+    border-radius: 20px;
+    border: 20px solid #30384D;
+    
+}
+.pic{
+    width: 555px;
+    height: 500px;
+    border-radius: 30px;
+}
+.dataShow{
+    margin-top: 80px;
+}
+.dataShowtext{
+    font-size: 40px;
+}
+.text{
+    font-size: 20px;
+    text-align: center;
+}
+.user{
+    margin-top: 10px;
+}
+.userGroup{
+    overflow: hidden;
+    margin-left: 100px;
+}
+.userGroup2{
+    margin-left: -30px;
+}
+.userGroup3{
+    margin-left: -30px;
+}
+.userGroup4{
+    margin-left: -30px;
+}
+.userGroup5{
+    margin-left: -30px;
+}
+.avatarUser{
+    width: 20%;
+    height: 50px;
+    border-radius: 50px;
+}
+.picSmallDes{
+    width: 15%;
+    border: 1px solid grey;
+    border-radius: 30px;
+}
+.smallText{
+    color: #545C71;
+    text-align: center;
+}
+.greyText{
+    color: #E5E5E5;
+    font-size: 18px;
+}
+.marginBox{
+    margin-top: 50px;
+}
+.trezorLogo{
+    width: 200px;
+    height: 70px;
+    border-radius: 30px;
+}
+.coinbase{
+    font-size: 38px;
+}
+.col2{
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+.trezorLogos{
+    width: 200px;
+    height: 100px;
+    border-radius: 30px;
+    margin-top: -20px;
+}

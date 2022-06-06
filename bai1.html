@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bai1.css">
+    <script src="./bai1.js"></script>
+    <title>Bai 1</title>
+</head>
+<body>
+    <form action="">
+        <h1>Nhap so a:</h1> 
+        <input type="number" id="a"> <br>
+        <h1>Nhap so b:</h1>
+        <input type="number" id="b"><br>
+
+        <input type="button" value="Ket qua la" onclick="returnResult()">
+
+    </form>
+    <div id="result"></div>
+</body>
+<script>
+    function checkNumber(a, b) {
+        var list=[]
+        for (var i = a; i <= b; i++ ) {
+            var a = Math.sqrt(i);
+            if(Number.isInteger(a)) {
+                list.push(i)
+            }
+        }
+        return list;
+    }
+
+    function returnResult() {
+        var result = document.getElementById("result");
+        var a = document.getElementById("a").value;
+        var b = document.getElementById("b").value;
+        a = parseInt(a);
+        b = parseInt(b);
+        var c =  checkNumber(a, b)
+        result.innerText =c;
+    }
+</script>
+</body>
+</html>
